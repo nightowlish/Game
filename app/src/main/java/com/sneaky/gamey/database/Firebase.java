@@ -7,24 +7,22 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.sneaky.gamey.App;
 
-import org.json.JSONObject;
-
 public class Firebase {
-    private FirebaseDatabase mDatabase;
-    private DatabaseReference mDatabaseReference;
-    private String id;
+    private static FirebaseDatabase mDatabase;
+    private static DatabaseReference mDatabaseReference;
+    private static String id;
 
-    public Firebase() {
-        mDatabase = FirebaseDatabase.getInstance();
-        mDatabaseReference = mDatabase.getReference();
-        id = getID();
+    public static void initFirebase() {
+        Firebase.mDatabase = FirebaseDatabase.getInstance();
+        Firebase.mDatabaseReference = mDatabase.getReference();
+        Firebase.id = Firebase.getID();
     }
 
-    public static void sendData(JSONObject json) {
+    public static void sendData(Object object) {
 
     }
 
-    public String getID() {
+    public static String getID() {
         TelephonyManager telephonyManager = (TelephonyManager) App.getContext().getSystemService(Context.TELEPHONY_SERVICE);
         return telephonyManager.getSubscriberId();
     }
