@@ -59,15 +59,11 @@
                 <dict>
                     <key>value</key>
                     <string>2.000000</string>
-                    <key>animations</key>
-                    <array/>
                 </dict>
                 <key>Tiling Offset</key>
                 <dict>
                     <key>value</key>
                     <string>-2.000000</string>
-                    <key>animations</key>
-                    <array/>
                 </dict>
                 <key>zDepth</key>
                 <string>-100</string>
@@ -148,24 +144,11 @@
                 <dict>
                     <key>value</key>
                     <string>{0.100,568.000}</string>
-                    <key>animationsX</key>
-                    <array/>
-                    <key>animationsY</key>
-                    <array/>
-                </dict>
-                <key>Rotation</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
                 </dict>
                 <key>Scale</key>
                 <dict>
                     <key>value</key>
                     <string>{1.000,1.000}</string>
-                    <key>animationsX</key>
-                    <array/>
-                    <key>animationsY</key>
-                    <array/>
                 </dict>
                 <key>Hidden</key>
                 <dict>
@@ -178,21 +161,6 @@
                 <dict>
                     <key>visible</key>
                     <string>0</string>
-                </dict>
-                <key>Opacity</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Speed</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Tiling Offset</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
                 </dict>
                 <key>zDepth</key>
                 <string>1000</string>

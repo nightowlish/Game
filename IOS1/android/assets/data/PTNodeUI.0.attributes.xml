@@ -18,7 +18,7 @@
                 <key>Position</key>
                 <dict>
                     <key>value</key>
-                    <string>{400.000,-100.000}</string>
+                    <string>{401.000,-99.000}</string>
                 </dict>
             </dict>
             <dict>
@@ -34,7 +34,7 @@
                 <key>Position</key>
                 <dict>
                     <key>value</key>
-                    <string>{-200.000,-100.000}</string>
+                    <string>{-197.000,-99.000}</string>
                 </dict>
             </dict>
             <dict>
@@ -50,7 +50,7 @@
                 <key>Position</key>
                 <dict>
                     <key>value</key>
-                    <string>{100.000,-210.000}</string>
+                    <string>{99.000,-210.000}</string>
                 </dict>
             </dict>
             <dict>
@@ -98,7 +98,7 @@
                 <key>Position</key>
                 <dict>
                     <key>value</key>
-                    <string>{620.000,-100.000}</string>
+                    <string>{621.000,-100.000}</string>
                 </dict>
             </dict>
         </array>
