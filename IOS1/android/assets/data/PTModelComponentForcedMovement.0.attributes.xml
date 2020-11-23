@@ -17,6 +17,21 @@
                     <key>value</key>
                     <string>Forced Movement</string>
                 </dict>
+                <key>Froce Min</key>
+                <dict>
+                    <key>animations</key>
+                    <array/>
+                </dict>
+                <key>Force Max</key>
+                <dict>
+                    <key>animations</key>
+                    <array/>
+                </dict>
+                <key>Force Increase</key>
+                <dict>
+                    <key>animations</key>
+                    <array/>
+                </dict>
             </dict>
         </array>
     </dict>
