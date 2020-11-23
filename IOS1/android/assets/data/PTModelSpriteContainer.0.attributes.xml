@@ -225,26 +225,6 @@
                     <key>value</key>
                     <string>Back Button</string>
                 </dict>
-                <key>Brightness</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Contrast</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Hue</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Saturation</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
                 <key>duration</key>
                 <string>0.033333</string>
                 <key>animationSpeed</key>
@@ -320,26 +300,6 @@
                     <key>value</key>
                     <string>Main Menu Button</string>
                 </dict>
-                <key>Brightness</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Contrast</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Hue</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Saturation</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
                 <key>duration</key>
                 <string>0.033333</string>
                 <key>animationSpeed</key>
@@ -355,26 +315,6 @@
                     <key>value</key>
                     <string>Game Over Logo</string>
                 </dict>
-                <key>Brightness</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Contrast</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Hue</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Saturation</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
                 <key>duration</key>
                 <string>0.033333</string>
                 <key>animationSpeed</key>
@@ -389,26 +329,6 @@
                 <dict>
                     <key>value</key>
                     <string>Restart Button</string>
-                </dict>
-                <key>Brightness</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Contrast</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Hue</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Saturation</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
                 </dict>
                 <key>duration</key>
                 <string>0.033333</string>
@@ -470,26 +390,6 @@
                     <key>value</key>
                     <string>text2image_T6068355_20201102_115908</string>
                 </dict>
-                <key>Brightness</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Contrast</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Hue</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Saturation</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
                 <key>duration</key>
                 <string>0.033333</string>
                 <key>animationSpeed</key>
@@ -550,26 +450,6 @@
                     <key>value</key>
                     <string>text2image_L5284228_20201108_170557</string>
                 </dict>
-                <key>Brightness</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Contrast</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Hue</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Saturation</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
                 <key>duration</key>
                 <string>0.033333</string>
                 <key>animationSpeed</key>
@@ -584,26 +464,6 @@
                 <dict>
                     <key>value</key>
                     <string>text2image_F5579560_20201108_170835</string>
-                </dict>
-                <key>Brightness</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Contrast</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Hue</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Saturation</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
                 </dict>
                 <key>duration</key>
                 <string>0.033333</string>
@@ -620,26 +480,6 @@
                     <key>value</key>
                     <string>text2image_V5907351_20201108_171025</string>
                 </dict>
-                <key>Brightness</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Contrast</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Hue</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Saturation</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
                 <key>duration</key>
                 <string>0.033333</string>
                 <key>animationSpeed</key>
@@ -654,26 +494,6 @@
                 <dict>
                     <key>value</key>
                     <string>text2image_R5856570_20201108_171120</string>
-                </dict>
-                <key>Brightness</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Contrast</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Hue</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
-                </dict>
-                <key>Saturation</key>
-                <dict>
-                    <key>animations</key>
-                    <array/>
                 </dict>
                 <key>duration</key>
                 <string>0.033333</string>

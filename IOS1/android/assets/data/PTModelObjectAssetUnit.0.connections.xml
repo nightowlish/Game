@@ -212,6 +212,15 @@
                     <string>343</string>
                 </dict>
             </dict>
+            <dict>
+                <key>id</key>
+                <string>2349</string>
+                <key>Asset</key>
+                <dict>
+                    <key>value</key>
+                    <string>343</string>
+                </dict>
+            </dict>
         </array>
     </dict>
 </plist>

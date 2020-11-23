@@ -74,6 +74,15 @@
                 <dict>
                     <key>value</key>
                     <string>{0.000,0.000}</string>
+                    <key>animationsX</key>
+                    <array/>
+                    <key>animationsY</key>
+                    <array/>
+                </dict>
+                <key>Angular Velocity</key>
+                <dict>
+                    <key>animations</key>
+                    <array/>
                 </dict>
                 <key>Collision Type</key>
                 <dict>
@@ -157,6 +166,15 @@
                 <dict>
                     <key>value</key>
                     <string>{0.000,0.000}</string>
+                    <key>animationsX</key>
+                    <array/>
+                    <key>animationsY</key>
+                    <array/>
+                </dict>
+                <key>Angular Velocity</key>
+                <dict>
+                    <key>animations</key>
+                    <array/>
                 </dict>
                 <key>Collision Type</key>
                 <dict>
@@ -240,6 +258,15 @@
                 <dict>
                     <key>value</key>
                     <string>{0.000,0.000}</string>
+                    <key>animationsX</key>
+                    <array/>
+                    <key>animationsY</key>
+                    <array/>
+                </dict>
+                <key>Angular Velocity</key>
+                <dict>
+                    <key>animations</key>
+                    <array/>
                 </dict>
                 <key>Collision Type</key>
                 <dict>
@@ -406,6 +433,15 @@
                 <dict>
                     <key>value</key>
                     <string>{0.000,0.000}</string>
+                    <key>animationsX</key>
+                    <array/>
+                    <key>animationsY</key>
+                    <array/>
+                </dict>
+                <key>Angular Velocity</key>
+                <dict>
+                    <key>animations</key>
+                    <array/>
                 </dict>
                 <key>Collision Type</key>
                 <dict>
@@ -489,6 +525,15 @@
                 <dict>
                     <key>value</key>
                     <string>{0.000,0.000}</string>
+                    <key>animationsX</key>
+                    <array/>
+                    <key>animationsY</key>
+                    <array/>
+                </dict>
+                <key>Angular Velocity</key>
+                <dict>
+                    <key>animations</key>
+                    <array/>
                 </dict>
                 <key>Collision Type</key>
                 <dict>
@@ -572,6 +617,15 @@
                 <dict>
                     <key>value</key>
                     <string>{0.000,0.000}</string>
+                    <key>animationsX</key>
+                    <array/>
+                    <key>animationsY</key>
+                    <array/>
+                </dict>
+                <key>Angular Velocity</key>
+                <dict>
+                    <key>animations</key>
+                    <array/>
                 </dict>
                 <key>Collision Type</key>
                 <dict>
@@ -609,7 +663,7 @@
                 <key>Position</key>
                 <dict>
                     <key>value</key>
-                    <string>{644.071,322.096}</string>
+                    <string>{648.472,322.096}</string>
                     <key>animationsX</key>
                     <array/>
                     <key>animationsY</key>
@@ -655,6 +709,15 @@
                 <dict>
                     <key>value</key>
                     <string>{0.000,0.000}</string>
+                    <key>animationsX</key>
+                    <array/>
+                    <key>animationsY</key>
+                    <array/>
+                </dict>
+                <key>Angular Velocity</key>
+                <dict>
+                    <key>animations</key>
+                    <array/>
                 </dict>
                 <key>Collision Type</key>
                 <dict>
@@ -738,6 +801,15 @@
                 <dict>
                     <key>value</key>
                     <string>{0.000,0.000}</string>
+                    <key>animationsX</key>
+                    <array/>
+                    <key>animationsY</key>
+                    <array/>
+                </dict>
+                <key>Angular Velocity</key>
+                <dict>
+                    <key>animations</key>
+                    <array/>
                 </dict>
                 <key>Collision Type</key>
                 <dict>
@@ -821,6 +893,15 @@
                 <dict>
                     <key>value</key>
                     <string>{0.000,0.000}</string>
+                    <key>animationsX</key>
+                    <array/>
+                    <key>animationsY</key>
+                    <array/>
+                </dict>
+                <key>Angular Velocity</key>
+                <dict>
+                    <key>animations</key>
+                    <array/>
                 </dict>
                 <key>Collision Type</key>
                 <dict>
@@ -1485,6 +1566,15 @@
                 <dict>
                     <key>value</key>
                     <string>{0.000,0.000}</string>
+                    <key>animationsX</key>
+                    <array/>
+                    <key>animationsY</key>
+                    <array/>
+                </dict>
+                <key>Angular Velocity</key>
+                <dict>
+                    <key>animations</key>
+                    <array/>
                 </dict>
                 <key>Collision Type</key>
                 <dict>
@@ -1651,6 +1741,15 @@
                 <dict>
                     <key>value</key>
                     <string>{0.000,0.000}</string>
+                    <key>animationsX</key>
+                    <array/>
+                    <key>animationsY</key>
+                    <array/>
+                </dict>
+                <key>Angular Velocity</key>
+                <dict>
+                    <key>animations</key>
+                    <array/>
                 </dict>
                 <key>Collision Type</key>
                 <dict>
@@ -1771,7 +1870,7 @@
                 <key>Position</key>
                 <dict>
                     <key>value</key>
-                    <string>{232.674,236.526}</string>
+                    <string>{232.674,234.325}</string>
                     <key>animationsX</key>
                     <array/>
                     <key>animationsY</key>
@@ -1817,11 +1916,17 @@
                 <dict>
                     <key>value</key>
                     <string>{0.000,0.000}</string>
+                    <key>animationsX</key>
+                    <array/>
+                    <key>animationsY</key>
+                    <array/>
                 </dict>
                 <key>Angular Velocity</key>
                 <dict>
                     <key>value</key>
                     <string>15.000000</string>
+                    <key>animations</key>
+                    <array/>
                 </dict>
                 <key>Collision Type</key>
                 <dict>
@@ -1905,11 +2010,17 @@
                 <dict>
                     <key>value</key>
                     <string>{0.000,0.000}</string>
+                    <key>animationsX</key>
+                    <array/>
+                    <key>animationsY</key>
+                    <array/>
                 </dict>
                 <key>Angular Velocity</key>
                 <dict>
                     <key>value</key>
                     <string>-15.000000</string>
+                    <key>animations</key>
+                    <array/>
                 </dict>
                 <key>Collision Type</key>
                 <dict>
@@ -1923,6 +2034,100 @@
                 </dict>
                 <key>zDepth</key>
                 <string>7</string>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>2349</string>
+                <key>className</key>
+                <string>PTModelObjectAssetUnit</string>
+                <key>Object Type</key>
+                <dict>
+                    <key>selectedStringValue</key>
+                    <string>kEnemyObjectType</string>
+                </dict>
+                <key>Movement Type</key>
+                <dict>
+                    <key>selectedStringValue</key>
+                    <string>kMovementPhysics</string>
+                </dict>
+                <key>Name</key>
+                <dict>
+                    <key>value</key>
+                    <string>Enemy</string>
+                </dict>
+                <key>Position</key>
+                <dict>
+                    <key>value</key>
+                    <string>{330.095,121.035}</string>
+                    <key>animationsX</key>
+                    <array/>
+                    <key>animationsY</key>
+                    <array/>
+                </dict>
+                <key>Rotation</key>
+                <dict>
+                    <key>value</key>
+                    <string>-88.376587</string>
+                    <key>animations</key>
+                    <array/>
+                </dict>
+                <key>Scale</key>
+                <dict>
+                    <key>value</key>
+                    <string>{0.440,0.439}</string>
+                    <key>animationsX</key>
+                    <array/>
+                    <key>animationsY</key>
+                    <array/>
+                </dict>
+                <key>Hidden</key>
+                <dict>
+                    <key>visible</key>
+                    <string>0</string>
+                </dict>
+                <key>Locked</key>
+                <dict>
+                    <key>visible</key>
+                    <string>0</string>
+                </dict>
+                <key>Opacity</key>
+                <dict>
+                    <key>animations</key>
+                    <array/>
+                </dict>
+                <key>Asset</key>
+                <dict>
+                    <key>visible</key>
+                    <string>0</string>
+                </dict>
+                <key>Linear Velocity</key>
+                <dict>
+                    <key>value</key>
+                    <string>{0.000,0.000}</string>
+                    <key>animationsX</key>
+                    <array/>
+                    <key>animationsY</key>
+                    <array/>
+                </dict>
+                <key>Angular Velocity</key>
+                <dict>
+                    <key>value</key>
+                    <string>-15.000000</string>
+                    <key>animations</key>
+                    <array/>
+                </dict>
+                <key>Collision Type</key>
+                <dict>
+                    <key>selectedStringValue</key>
+                    <string>kNoCollision</string>
+                </dict>
+                <key>Destroy Type</key>
+                <dict>
+                    <key>selectedStringValue</key>
+                    <string>kDestroyCollision</string>
+                </dict>
+                <key>zDepth</key>
+                <string>16</string>
             </dict>
         </array>
     </dict>

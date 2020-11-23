@@ -8,19 +8,19 @@
             <dict>
                 <key>id</key>
                 <string>99</string>
-                <key>Pause</key>
+                <key>Game Over</key>
                 <dict>
                     <key>connectedModelId</key>
-                    <string>2004</string>
+                    <string>2016</string>
                     <key>attributeName</key>
                     <string>Load</string>
                     <key>isAction</key>
                     <string>true</string>
                 </dict>
-                <key>Game Over</key>
+                <key>Pause</key>
                 <dict>
                     <key>connectedModelId</key>
-                    <string>2016</string>
+                    <string>2004</string>
                     <key>attributeName</key>
                     <string>Load</string>
                     <key>isAction</key>
@@ -34,10 +34,10 @@
             <dict>
                 <key>id</key>
                 <string>1977</string>
-                <key>Start</key>
+                <key>Coin Shop</key>
                 <dict>
                     <key>connectedModelId</key>
-                    <string>1332</string>
+                    <string>1997</string>
                     <key>attributeName</key>
                     <string>Load</string>
                     <key>isAction</key>
@@ -52,10 +52,10 @@
                     <key>isAction</key>
                     <string>true</string>
                 </dict>
-                <key>Coin Shop</key>
+                <key>Start</key>
                 <dict>
                     <key>connectedModelId</key>
-                    <string>1997</string>
+                    <string>1332</string>
                     <key>attributeName</key>
                     <string>Load</string>
                     <key>isAction</key>

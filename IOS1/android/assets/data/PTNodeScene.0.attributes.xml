@@ -18,7 +18,23 @@
                 <key>Position</key>
                 <dict>
                     <key>value</key>
-                    <string>{100.000,-97.000}</string>
+                    <string>{100.000,-98.000}</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>id</key>
+                <string>2343</string>
+                <key>className</key>
+                <string>PTNodeScene</string>
+                <key>Name</key>
+                <dict>
+                    <key>value</key>
+                    <string>New World 1</string>
+                </dict>
+                <key>Position</key>
+                <dict>
+                    <key>value</key>
+                    <string>{86.000,198.000}</string>
                 </dict>
             </dict>
         </array>
